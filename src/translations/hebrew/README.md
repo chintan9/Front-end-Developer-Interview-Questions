@@ -293,6 +293,7 @@ permalink: /translations/hebrew/index.html
     doSomething().then(doSomethingElse());
 
     doSomething().then(doSomethingElse);
+
   </pre>
 </ul>
 

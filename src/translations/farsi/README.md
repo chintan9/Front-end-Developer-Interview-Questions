@@ -166,7 +166,7 @@ permalink: /translations/farsi/index.html
 </ul>
 
 ```javascript
-duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
+duplicate([1, 2, 3, 4, 5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
 
 <ul dir="rtl">
@@ -237,8 +237,9 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 <p dir="rtl"><em>سوال: مقدار <code dir="ltr">foo</code> چیست؟</em></p>
 
 ```javascript
-var foo = 10 + '20';
+var foo = 10 + "20";
 ```
+
 <p dir="rtl"><em>سوال: چیکار میکنی تا این کار کنه؟</em></p>
 
 ```javascript
@@ -249,13 +250,16 @@ add(2)(5); // 7
 <p dir="rtl"><em>سوال: مقدار برگشته از عبارت زیر چیست؟</em></p>
 
 ```javascript
-"i'm a lasagna hog".split("").reverse().join("");
+"i'm a lasagna hog"
+  .split("")
+  .reverse()
+  .join("");
 ```
 
 <p dir="rtl"><em>سوال: مقدار <code dir="ltr">window.foo</code> چیست؟</em></p>
 
 ```javascript
-( window.foo || ( window.foo = "bar" ) );
+window.foo || (window.foo = "bar");
 ```
 
 <p dir="rtl"><em>سوال: خروجی دو آلرت زیر چیست؟</em></p>
@@ -280,19 +284,19 @@ foo.push(2);
 <p dir="rtl"><em>سوال: مقدار <code dir="ltr">foo.x</code> چیست؟</em></p>
 
 ```javascript
-var foo = {n: 1};
+var foo = { n: 1 };
 var bar = foo;
-foo.x = foo = {n: 2};
+foo.x = foo = { n: 2 };
 ```
 
 <p dir="rtl"><em>سوال: کد زیر چه چیزی رو پرینت می‌کند؟</em></p>
 
 ```javascript
-console.log('one');
+console.log("one");
 setTimeout(function() {
-  console.log('two');
+  console.log("two");
 }, 0);
-console.log('three');
+console.log("three");
 ```
 
 <h4 dir="rtl" id="fun-questions">سوال‌های فان:</h4>

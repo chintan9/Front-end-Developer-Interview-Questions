@@ -4,6 +4,7 @@ layout: layouts/page.njk
 rtl: true
 permalink: /translations/arabic/index.html
 ---
+
 <div dir="rtl">
 <h1>أسئلة مقابله شخصية في تطوير واجهةالويب</h1>
 <p>هذا الملف يحتوي على عدد من أسئلة مقابلة شخصية في تطوير واجهة الويب التي من الممكن ان تساعدك في فحص المرشحين المحتملين للوظيفة.
@@ -154,7 +155,7 @@ permalink: /translations/arabic/index.html
 </div>
 
 ```javascript
-duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
+duplicate([1, 2, 3, 4, 5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
 
 <div dir='rtl'>
@@ -215,12 +216,12 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 <li>ما هي HTTP methods؟ و عدد كل HTTP methods التي تعرفها، واشرحها.</li>
 </ul>
 <h3>أسئلة برمجة:</h3>
-</div> 
+</div>
 
 <p dir="rtl"><em>سؤال: ماهي قيمة <code>foo</code>؟</em></p>
 
 ```javascript
-var foo = 10 + '20';
+var foo = 10 + "20";
 ```
 
 <p dir="rtl"><em>سؤال: كيف يمكن جعل هذا الكود يعمل؟</em></p>
@@ -233,13 +234,16 @@ add(2)(5); // 7
 <p dir="rtl"><em>سؤال: ماهي القيمة العائدة من الكود التالي؟</em></p>
 
 ```javascript
-"i'm a lasagna hog".split("").reverse().join("");
+"i'm a lasagna hog"
+  .split("")
+  .reverse()
+  .join("");
 ```
 
 <p dir="rtl"><em>سؤال: ماهي قيمة <code>window.foo</code>؟</em></p>
 
 ```javascript
-( window.foo || ( window.foo = "bar" ) );
+window.foo || (window.foo = "bar");
 ```
 
 <p dir="rtl"><em>سؤال: ماهو ناتج التنبيهات التالية؟</em></p>
@@ -264,19 +268,19 @@ foo.push(2);
 <p dir="rtl"><em>سؤال: ماهي قيمة <code>foo.x</code>؟</em></p>
 
 ```javascript
-var foo = {n: 1};
+var foo = { n: 1 };
 var bar = foo;
-foo.x = foo = {n: 2};
+foo.x = foo = { n: 2 };
 ```
 
 <p dir="rtl"><em>سؤال: ماذا يطبع الكود التالي؟</em></p>
 
 ```javascript
-console.log('one');
+console.log("one");
 setTimeout(function() {
-  console.log('two');
+  console.log("two");
 }, 0);
-console.log('three');
+console.log("three");
 ```
 
 <div dir="rtl">
